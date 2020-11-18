@@ -2,9 +2,7 @@ module github.com/chigopher/pathlib
 
 go 1.14
 
-replace (
-	github.com/chigopher/pathlib latest => github.com/chrisheckey/pathlib latest
-)
+replace github.com/chigopher/pathlib v0.12.0 => ./
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
